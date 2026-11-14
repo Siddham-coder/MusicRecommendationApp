@@ -1,0 +1,91 @@
+song_id,song_name,primary_artist,featured_artists,language,artist_type,album_or_film,release_year,genre,sub_genre,audio_path,audio_url,danceability,energy,tempo_bpm,acousticness,valence,instrumentalness,loudness_db
+TRK0001,Kesariya,Arijit Singh,None,Hindi,Playback,Brahmastra,2022,Romantic,Bollywood Pop,Not provided,Not provided,0.661,0.497,116.8,0.414,0.385,0.0,-7.31
+TRK0002,Tum Hi Ho,Arijit Singh,None,Hindi,Playback,Aashiqui 2,2013,Romantic,Film Ballad,Not provided,Not provided,0.358,0.319,70.3,0.808,0.358,0.031,-9.31
+TRK0003,Channa Mereya,Arijit Singh,None,Hindi,Playback,Ae Dil Hai Mushkil,2016,Melancholic,Film Ballad,Not provided,Not provided,0.413,0.251,81.3,0.624,0.368,0.03,-11.28
+TRK0004,Raabta,Arijit Singh,None,Hindi,Playback,Agent Vinod,2012,Romantic,Film Pop,Not provided,Not provided,0.592,0.678,108.6,0.277,0.545,0.015,-6.95
+TRK0005,Agar Tum Saath Ho,Alka Yagnik,Arijit Singh,Hindi,Playback,Tamasha,2015,Melancholic,Film Ballad,Not provided,Not provided,0.409,0.354,97.3,0.679,0.229,0.022,-10.08
+TRK0006,Abhi Mujh Mein Kahin,Sonu Nigam,None,Hindi,Playback,Agneepath,2012,Emotional,Film Ballad,Not provided,Not provided,0.459,0.311,70.4,0.638,0.345,0.037,-10.19
+TRK0007,Kal Ho Naa Ho,Sonu Nigam,None,Hindi,Playback,Kal Ho Naa Ho,2003,Emotional,Film Ballad,Not provided,Not provided,0.333,0.339,79.1,0.742,0.367,0.032,-9.98
+TRK0008,Saathiya,Sonu Nigam,None,Hindi,Playback,Saathiya,2002,Romantic,Film Pop,Not provided,Not provided,0.645,0.603,115.7,0.174,0.548,0.005,-8.46
+TRK0009,Main Agar Kahoon,Sonu Nigam,Shreya Ghoshal,Hindi,Playback,Om Shanti Om,2007,Romantic,Film Ballad,Not provided,Not provided,0.361,0.44,70.2,0.817,0.112,0.027,-10.76
+TRK0010,Tujh Mein Rab Dikhta Hai,Roop Kumar Rathod,None,Hindi,Playback,Rab Ne Bana Di Jodi,2008,Romantic,Film Ballad,Not provided,Not provided,0.421,0.377,85.1,0.685,0.234,0.039,-11.29
+TRK0011,Teri Ore,Shreya Ghoshal,Rahat Fateh Ali Khan,Hindi,Playback,Singh Is Kinng,2008,Romantic,Film Pop,Not provided,Not provided,0.551,0.489,101.7,0.37,0.594,0.017,-8.14
+TRK0012,Sun Raha Hai (Female),Shreya Ghoshal,None,Hindi,Playback,Aashiqui 2,2013,Melancholic,Film Ballad,Not provided,Not provided,0.391,0.37,75.2,0.766,0.214,0.026,-11.57
+TRK0013,Saibo,Shreya Ghoshal,Tochi Raina,Hindi,Playback,Shor in the City,2011,Romantic,Film Pop,Not provided,Not provided,0.556,0.619,105.8,0.321,0.628,0.014,-6.5
+TRK0014,Zara Zara,Bombay Jayashri,None,Hindi,Playback,Rehnaa Hai Terre Dil Mein,2001,Romantic,Film Ballad,Not provided,Not provided,0.373,0.286,77.3,0.551,0.135,0.017,-12.5
+TRK0015,Alvida,KK,None,Hindi,Playback,Life in a... Metro,2007,Melancholic,Rock Ballad,Not provided,Not provided,0.508,0.708,114.6,0.25,0.444,0.027,-7.4
+TRK0016,Yaaron,KK,None,Hindi,Playback,Pal,1999,Friendship,Pop Rock,Not provided,Not provided,0.466,0.704,114.9,0.204,0.307,0.024,-5.64
+TRK0017,Tadap Tadap,KK,None,Hindi,Playback,Hum Dil De Chuke Sanam,1999,Melancholic,Film Ballad,Not provided,Not provided,0.338,0.204,78.6,0.667,0.303,0.03,-8.6
+TRK0018,Aankhon Mein Teri,KK,None,Hindi,Playback,Om Shanti Om,2007,Romantic,Film Pop,Not provided,Not provided,0.623,0.498,111.6,0.342,0.716,0.018,-6.96
+TRK0019,Pehli Nazar Mein,Atif Aslam,None,Hindi,Playback,Race,2008,Romantic,Film Pop,Not provided,Not provided,0.742,0.485,104.2,0.227,0.541,0.0,-6.55
+TRK0020,Tu Jaane Na,Atif Aslam,None,Hindi,Playback,Ajab Prem Ki Ghazab Kahani,2009,Romantic,Film Ballad,Not provided,Not provided,0.364,0.202,68.9,0.751,0.364,0.05,-6.63
+TRK0021,Jeena Jeena,Atif Aslam,None,Hindi,Playback,Badlapur,2015,Romantic,Film Ballad,Not provided,Not provided,0.409,0.241,58.8,0.747,0.199,0.026,-11.92
+TRK0022,Pani Da Rang,Ayushmann Khurrana,None,Hindi,Playback,Vicky Donor,2012,Romantic,Acoustic Pop,Not provided,Not provided,0.51,0.465,93.4,0.764,0.376,0.003,-10.73
+TRK0023,Tum Se Hi,Mohit Chauhan,None,Hindi,Playback,Jab We Met,2007,Romantic,Film Pop,Not provided,Not provided,0.636,0.721,111.2,0.418,0.53,0.0,-8.95
+TRK0024,Nadaan Parindey,A.R. Rahman,Mohit Chauhan,Hindi,Playback,Rockstar,2011,Rock,Film Rock,Not provided,Not provided,0.429,0.95,110.6,0.204,0.39,0.029,-5.42
+TRK0025,Chand Sifarish,Shaan,Kailash Kher,Hindi,Playback,Fanaa,2006,Romantic,Film Pop,Not provided,Not provided,0.629,0.577,104.1,0.365,0.535,0.0,-9.42
+TRK0026,Tera Hone Laga Hoon,Atif Aslam,Alisha Chinai,Hindi,Playback,Ajab Prem Ki Ghazab Kahani,2009,Romantic,Film Pop,Not provided,Not provided,0.652,0.706,111.4,0.308,0.609,0.023,-7.17
+TRK0027,Baarish,Ash King,Shashaa Tirupati,Hindi,Playback,Half Girlfriend,2017,Romantic,Film Pop,Not provided,Not provided,0.611,0.669,113.9,0.474,0.598,0.0,-9.55
+TRK0028,Kaun Tujhe,Palak Muchhal,None,Hindi,Playback,M.S. Dhoni: The Untold Story,2016,Romantic,Film Ballad,Not provided,Not provided,0.496,0.458,76.4,0.682,0.426,0.019,-12.34
+TRK0029,Chogada,Darshan Raval,Asees Kaur,Hindi,Playback,Loveyatri,2018,Dance,Garba Pop,Not provided,Not provided,0.765,0.748,122.0,0.164,0.734,0.024,-6.36
+TRK0030,Apna Bana Le,Arijit Singh,None,Hindi,Playback,Bhediya,2022,Romantic,Film Pop,Not provided,Not provided,0.685,0.416,109.6,0.236,0.458,0.001,-8.0
+TRK0031,Phir Le Aya Dil (Reprise),Arijit Singh,None,Hindi,Playback,Barfi!,2012,Melancholic,Ghazal-influenced Ballad,Not provided,Not provided,0.444,0.214,78.3,0.672,0.247,0.04,-10.19
+TRK0032,Hawayein,Arijit Singh,None,Hindi,Playback,Jab Harry Met Sejal,2017,Romantic,Film Pop,Not provided,Not provided,0.734,0.568,103.7,0.298,0.604,0.012,-9.13
+TRK0033,Mere Dholna,Shreya Ghoshal,M.G. Sreekumar,Hindi,Playback,Bhool Bhulaiyaa,2007,Classical,Semi-classical,Not provided,Not provided,0.386,0.338,100.7,0.908,0.195,0.027,-13.2
+TRK0034,Tere Bina,A.R. Rahman,Chinmayi,Hindi,Playback,Guru,2007,Romantic,Film Ballad,Not provided,Not provided,0.339,0.345,88.9,0.647,0.215,0.009,-11.24
+TRK0035,Yad Lagla,Ajay Gogavale,None,Marathi,Playback,Sairat,2016,Romantic,Marathi Film,Not provided,Not provided,0.486,0.478,92.1,0.411,0.324,0.0,-4.81
+TRK0036,Zingaat,Ajay Gogavale,Atul Gogavale,Marathi,Playback,Sairat,2016,Dance,Folk Pop,Not provided,Not provided,0.53,0.462,121.5,0.771,0.503,0.006,-7.49
+TRK0037,Sairat Zaala Ji,Chinmayi Sripaada,Ajay Gogavale,Marathi,Playback,Sairat,2016,Romantic,Marathi Film,Not provided,Not provided,0.681,0.441,97.8,0.498,0.543,0.006,-8.2
+TRK0038,Aatach Baya Ka Baavarla,Shreya Ghoshal,None,Marathi,Playback,Sairat,2016,Romantic,Marathi Film,Not provided,Not provided,0.464,0.501,97.6,0.443,0.444,0.015,-6.48
+TRK0039,Man Udhan Varyache,Shankar Mahadevan,None,Marathi,Playback,Aga Bai Arechya,2004,Inspirational,Marathi Film,Not provided,Not provided,0.571,0.548,100.5,0.42,0.428,0.013,-8.15
+TRK0040,Gaarva,Milind Ingle,None,Marathi,Independent,Gaarva,1998,Romantic,Indie Pop,Not provided,Not provided,0.787,0.706,113.5,0.244,0.469,0.022,-7.11
+TRK0041,Jeev Rangala,Hariharan,Shreya Ghoshal,Marathi,Playback,Jogwa,2009,Romantic,Marathi Film,Not provided,Not provided,0.594,0.38,108.3,0.465,0.389,0.005,-7.6
+TRK0042,Kadhi Tu,Hrishikesh Ranade,None,Marathi,Playback,Mumbai-Pune-Mumbai,2010,Romantic,Marathi Film,Not provided,Not provided,0.564,0.497,99.1,0.395,0.515,0.025,-11.85
+TRK0043,Tik Tik Vajate Dokyat,Sonu Nigam,Sayali Pankaj,Marathi,Playback,Duniyadari,2013,Romantic,Marathi Film,Not provided,Not provided,0.543,0.534,102.7,0.383,0.324,0.013,-5.41
+TRK0044,Mitwaa,Shankar Mahadevan,None,Marathi,Playback,Mitwaa,2015,Romantic,Marathi Film,Not provided,Not provided,0.453,0.589,97.0,0.414,0.395,0.007,-6.05
+TRK0045,Aabhas Ha,Swapnil Bandodkar,None,Marathi,Playback,Yanda Kartavya Aahe,2006,Romantic,Marathi Film,Not provided,Not provided,0.601,0.659,110.6,0.464,0.674,0.014,-6.76
+TRK0046,Sur Niragas Ho,Shankar Mahadevan,Anandi Joshi,Marathi,Playback,Katyar Kaljat Ghusali,2015,Classical,Semi-classical,Not provided,Not provided,0.359,0.325,71.7,0.819,0.162,0.038,-11.29
+TRK0047,Deva Tujhya Gaabharyala,Suresh Wadkar,None,Marathi,Playback,Natarang,2010,Devotional,Marathi Film,Not provided,Not provided,0.462,0.41,104.4,0.793,0.293,0.079,-11.76
+TRK0048,Hee Anokhi Gaath,Saleel Kulkarni,None,Marathi,Independent,Anandache Jhaad,2010,Reflective,Marathi Indie,Not provided,Not provided,0.384,0.461,87.7,0.61,0.149,0.02,-12.32
+TRK0049, दमलेल्या बाबाची कहाणी,Sandeep Khare,None,Marathi,Independent,Ayushyawar Bolu Kahi,2003,Emotional,Poetry / Song,Not provided,Not provided,0.333,0.345,88.4,0.781,0.051,0.033,-10.89
+TRK0050,Aika Dajiba,Vaishali Samant,None,Marathi,Playback,Jatra,2006,Dance,Marathi Folk Pop,Not provided,Not provided,0.649,0.679,86.4,0.421,0.679,0.0,-5.79
+TRK0051,Kombdi Palali,Vaishali Samant,Anand Shinde,Marathi,Playback,Jatra,2006,Dance,Marathi Folk Pop,Not provided,Not provided,0.646,0.618,99.9,0.561,0.727,0.012,-7.65
+TRK0052,Perfect,Ed Sheeran,None,English,Singer-songwriter,÷ (Divide),2017,Romantic,Pop,Not provided,Not provided,0.659,0.511,108.7,0.305,0.618,0.02,-9.09
+TRK0053,Shape of You,Ed Sheeran,None,English,Singer-songwriter,÷ (Divide),2017,Dance,Pop,Not provided,Not provided,0.631,0.699,103.3,0.238,0.6,0.018,-7.48
+TRK0054,Photograph,Ed Sheeran,None,English,Singer-songwriter,x (Multiply),2014,Romantic,Acoustic Pop,Not provided,Not provided,0.613,0.449,99.6,0.835,0.713,0.018,-13.01
+TRK0055,Thinking Out Loud,Ed Sheeran,None,English,Singer-songwriter,x (Multiply),2014,Romantic,Soul Pop,Not provided,Not provided,0.792,0.583,106.0,0.381,0.34,0.0,-9.4
+TRK0056,Love Story,Taylor Swift,None,English,Singer-songwriter,Fearless,2008,Romantic,Country Pop,Not provided,Not provided,0.464,0.415,96.7,0.808,0.339,0.0,-9.92
+TRK0057,Blank Space,Taylor Swift,None,English,Singer-songwriter,1989,2014,Pop,Synth-pop,Not provided,Not provided,0.687,0.817,128.3,0.194,0.776,0.012,-5.7
+TRK0058,Someone Like You,Adele,None,English,Singer-songwriter,21,2011,Melancholic,Piano Ballad,Not provided,Not provided,0.331,0.306,79.8,0.802,0.241,0.035,-11.4
+TRK0059,Hello,Adele,None,English,Singer-songwriter,25,2015,Melancholic,Pop Ballad,Not provided,Not provided,0.372,0.386,60.1,0.59,0.132,0.007,-12.02
+TRK0060,Blinding Lights,The Weeknd,None,English,Singer-songwriter,After Hours,2019,Dance,Synth-pop,Not provided,Not provided,0.772,0.757,123.8,0.289,0.833,0.009,-4.47
+TRK0061,Save Your Tears,The Weeknd,None,English,Singer-songwriter,After Hours,2020,Melancholic,Synth-pop,Not provided,Not provided,0.726,0.713,116.7,0.032,0.611,0.006,-5.29
+TRK0062,Sorry,Justin Bieber,None,English,Singer-songwriter,Purpose,2015,Dance,Tropical House,Not provided,Not provided,0.84,0.669,125.5,0.076,0.747,0.009,-9.25
+TRK0063,Love Yourself,Justin Bieber,None,English,Singer-songwriter,Purpose,2015,Acoustic,Pop,Not provided,Not provided,0.705,0.532,105.2,0.213,0.515,0.014,-7.78
+TRK0064,When I Was Your Man,Bruno Mars,None,English,Singer-songwriter,Unorthodox Jukebox,2012,Melancholic,Piano Ballad,Not provided,Not provided,0.403,0.349,89.9,0.686,0.132,0.041,-11.5
+TRK0065,Just the Way You Are,Bruno Mars,None,English,Singer-songwriter,Doo-Wops & Hooligans,2010,Romantic,Pop,Not provided,Not provided,0.718,0.611,108.8,0.355,0.775,0.031,-7.4
+TRK0066,Yellow,Coldplay,None,English,Band,Parachutes,2000,Romantic,Alternative Rock,Not provided,Not provided,0.491,0.866,110.4,0.153,0.477,0.023,-7.25
+TRK0067,The Scientist,Coldplay,None,English,Band,A Rush of Blood to the Head,2002,Melancholic,Alternative Rock,Not provided,Not provided,0.369,0.614,107.9,0.074,0.451,0.039,-4.34
+TRK0068,Fix You,Coldplay,None,English,Band,X&Y,2005,Emotional,Alternative Rock,Not provided,Not provided,0.413,0.808,114.3,0.092,0.499,0.026,-6.51
+TRK0069,Night Changes,One Direction,None,English,Band,FOUR,2014,Romantic,Pop,Not provided,Not provided,0.714,0.489,110.1,0.58,0.602,0.024,-7.36
+TRK0070,Story of My Life,One Direction,None,English,Band,Midnight Memories,2013,Pop,Folk Pop,Not provided,Not provided,0.661,0.545,103.5,0.402,0.663,0.001,-7.0
+TRK0071,As It Was,Harry Styles,None,English,Singer-songwriter,Harry's House,2022,Melancholic,Synth-pop,Not provided,Not provided,0.796,0.809,119.4,0.225,0.669,0.019,-9.25
+TRK0072,Lovely,Billie Eilish,Khalid,English,Singer-songwriter,13 Reasons Why (Soundtrack),2018,Melancholic,Indie Pop,Not provided,Not provided,0.617,0.421,96.5,0.456,0.67,0.003,-9.75
+TRK0073,Attention,Charlie Puth,None,English,Singer-songwriter,Voicenotes,2017,Pop,Pop,Not provided,Not provided,0.432,0.537,131.8,0.363,0.524,0.015,-9.84
+TRK0074,Counting Stars,OneRepublic,None,English,Band,Native,2013,Inspirational,Pop Rock,Not provided,Not provided,0.459,0.788,117.2,0.199,0.514,0.027,-7.03
+TRK0075,Demons,Imagine Dragons,None,English,Band,Night Visions,2012,Emotional,Alternative Rock,Not provided,Not provided,0.543,0.91,109.3,0.031,0.614,0.018,-3.89
+TRK0076,Viva La Vida,Coldplay,None,English,Band,Viva la Vida or Death and All His Friends,2008,Inspirational,Alternative Rock,Not provided,Not provided,0.449,0.896,119.2,0.146,0.636,0.016,-7.41
+TRK0077,Billie Jean,Michael Jackson,None,English,Singer-songwriter,Thriller,1982,Dance,Pop,Not provided,Not provided,0.609,0.616,95.9,0.384,0.526,0.021,-11.09
+TRK0078,We Are the Champions,Queen,None,English,Band,News of the World,1977,Inspirational,Rock,Not provided,Not provided,0.425,0.645,110.6,0.145,0.462,0.017,-6.24
+TRK0079,Umbrella,Rihanna,Jay-Z,English,Singer-songwriter,Good Girl Gone Bad,2007,Pop,R&B Pop,Not provided,Not provided,0.694,0.539,111.4,0.316,0.539,0.016,-6.56
+TRK0080,Levitating,Dua Lipa,None,English,Singer-songwriter,Future Nostalgia,2020,Dance,Disco Pop,Not provided,Not provided,0.862,0.773,119.2,0.105,0.597,0.0,-7.83
+TRK0081,7 rings,Ariana Grande,None,English,Singer-songwriter,"Thank U, Next",2019,Pop,Trap-pop,Not provided,Not provided,0.675,0.647,105.5,0.173,0.59,0.017,-7.24
+TRK0082,Baarishein,Anuv Jain,None,Hindi,Independent,Baarishein (Single),2018,Romantic,Indie Acoustic,Not provided,Not provided,0.474,0.424,93.7,0.635,0.473,0.023,-11.35
+TRK0083,Alag Aasmaan,Anuv Jain,None,Hindi,Independent,Alag Aasmaan (Single),2020,Romantic,Indie Acoustic,Not provided,Not provided,0.533,0.264,104.0,0.905,0.455,0.024,-13.61
+TRK0084,Kasoor,Prateek Kuhad,None,Hindi,Independent,cold/mess,2018,Romantic,Indie Acoustic,Not provided,Not provided,0.439,0.356,82.4,0.851,0.68,0.008,-11.26
+TRK0085,cold/mess,Prateek Kuhad,None,English,Independent,cold/mess,2018,Melancholic,Indie Pop,Not provided,Not provided,0.656,0.709,99.0,0.345,0.762,0.0,-9.42
+TRK0086,Tune Kaha,Prateek Kuhad,None,Hindi,Independent,In Tokens & Charms,2015,Romantic,Indie Acoustic,Not provided,Not provided,0.49,0.338,99.3,0.804,0.303,0.025,-10.87
+TRK0087,Choo Lo,The Local Train,None,Hindi,Band,Aalas Ka Pedh,2015,Melancholic,Indie Rock,Not provided,Not provided,0.569,0.73,112.3,0.174,0.556,0.024,-8.53
+TRK0088,Aaoge Tum Kabhi,The Local Train,None,Hindi,Band,Aalas Ka Pedh,2015,Romantic,Indie Rock,Not provided,Not provided,0.518,0.697,120.1,0.0,0.525,0.012,-7.92
+TRK0089,Kho Gaye Hum Kahan,Jasleen Royal,Prateek Kuhad,Hindi,Independent / Playback,Baar Baar Dekho,2016,Melancholic,Indie Pop,Not provided,Not provided,0.69,0.599,104.5,0.465,0.536,0.01,-7.1
+TRK0090,Husn,Anuv Jain,None,Hindi,Independent,Husn (Single),2023,Romantic,Indie Acoustic,Not provided,Not provided,0.477,0.418,87.2,0.739,0.616,0.01,-13.62

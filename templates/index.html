@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoMatch | AI Music Recommender</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons for search and music symbols -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-music-waveform"></i>
+                <span>EchoMatch</span>
+            </div>
+            <p class="tagline">Discover your next favorite track using advanced Cosine Similarity.</p>
+        </header>
+
+        <div class="search-card">
+            <div class="input-group">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <select id="songSelect">
+                    <option value="" disabled selected>Choose a song you love...</option>
+                    {% for song in song_list %}
+                        <option value="{{ song }}">{{ song }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button id="recommendBtn">
+                <span>Generate Vibe</span>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </button>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Analyzing cosine vectors & finding matches...</p>
+        </div>
+
+        <div id="results" class="results-grid"></div>
+    </div>
+
+    <script>
+        document.getElementById('recommendBtn').addEventListener('click', async () => {
+            const selectElement = document.getElementById('songSelect');
+            const selectedSong = selectElement.value;
+            const resultsDiv = document.getElementById('results');
+            const loadingDiv = document.getElementById('loading');
+
+            if (!selectedSong) {
+                alert('Please pick a track from the dropdown first!');
+                return;
+            }
+
+            // Show loading spinner, clear old results
+            resultsDiv.innerHTML = '';
+            loadingDiv.classList.remove('hidden');
+
+            try {
+                const response = await fetch('/recommend', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ song_name: selectedSong })
+                });
+
+                const data = await response.json();
+                loadingDiv.classList.add('hidden');
+
+                if (data.status === 'success') {
+                    // Header for results
+                    const heading = document.createElement('h2');
+                    heading.className = 'results-title';
+                    heading.innerHTML = `<i class="fa-solid fa-compact-disc"></i> Top Recommendations for "${selectedSong}"`;
+                    resultsDiv.appendChild(heading);
+
+                    data.recommendations.forEach((rec, index) => {
+                        const card = document.createElement('div');
+                        card.className = 'song-card';
+                        card.style.animationDelay = `${index * 0.1}s`;
+                        
+                        card.innerHTML = `
+                            <div class="card-left">
+                                <span class="rank">#${index + 1}</span>
+                                <div class="song-info">
+                                    <h3>${rec.song_name}</h3>
+                                    <p><i class="fa-solid fa-user-pen"></i> ${rec.artist}</p>
+                                </div>
+                            </div>
+                            <div class="card-right">
+                                <div class="score-badge">
+                                    <i class="fa-solid fa-chart-line"></i> ${(rec.similarity_score * 100).toFixed(1)}% Match
+                                </div>
+                            </div>
+                        `;
+                        resultsDiv.appendChild(card);
+                    });
+                } else {
+                    resultsDiv.innerHTML = `<p class="error-msg">⚠️ Error: ${data.message}</p>`;
+                }
+            } catch (err) {
+                loadingDiv.classList.add('hidden');
+                resultsDiv.innerHTML = `<p class="error-msg">⚠️ Failed to connect to backend server.</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
