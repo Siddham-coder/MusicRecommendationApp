@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 # Load your pickled files
 print("Loading model and data...")
-similarity_matrix = pickle.load(open('similarity_matrix.pkl', 'rb'))
-df = pickle.load(open('df.pkl', 'rb'))
-df_original = pickle.load(open('df_original.pkl', 'rb'))
+similarity_matrix = pickle.load(open('Model/similarity_matrix.pkl', 'rb'))
+df = pickle.load(open('Model/df.pkl', 'rb'))
+df_original = pickle.load(open('Model/df_original.pkl', 'rb'))
 print("Data loaded successfully!")
 
 @app.route('/')
